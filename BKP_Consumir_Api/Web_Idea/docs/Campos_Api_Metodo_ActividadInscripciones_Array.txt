@@ -1,0 +1,49 @@
+[5] => Array ( 
+[Id_Cliente] => 7076047 
+[nombre] => GUIDUCCI JAVIER 
+[email] => JGUIDUCCI@IDEA.ORG.AR 
+[empresa] => INSTITUTO PARA EL DESARROLLO EMPRESARIAL DE LA ARGENTINA 
+[Nombre_Fantasia] => IDEA 
+[app_usuario] => jguiducci 
+[app_clave] => 49415298 
+[cargo] => SISTEMA 
+[apellido] => GUIDUCCI 
+[nombre_solo] => JAVIER 
+[Area_Desempenio] => 18 
+[Id_Producto] => 0502211242 
+[Id_Trans] => 507381 
+) 
+
+Para leer luego de un JSON:
+
+$resultado[$i]["Id_Cliente"]
+$resultado[$i]["nombre"]
+$resultado[$i]["email"]
+$resultado[$i]["empresa"] 
+$resultado[$i]["Nombre_Fantasia"]
+$resultado[$i]["app_usuario"]
+$resultado[$i]["app_clave"] 
+$resultado[$i]["cargo"]
+$resultado[$i]["apellido"] 
+$resultado[$i]["nombre_solo"] 
+$resultado[$i]["Area_Desempenio"] 
+$resultado[$i]["Id_Producto"]
+$resultado[$i]["Id_Trans"]
+
+
+
+Para leer luego de un $regdatos = mysqli_fetch_array($resultado):
+
+$regdatos["$Id_Cliente"]
+$regdatos["$nombre"]
+$regdatos["$email"] 
+$regdatos["$empresa"] 
+$regdatos["$Nombre_Fantasia"]
+$regdatos["$app_usuario"]
+$regdatos["$app_clave"] 
+$regdatos["$cargo"]
+$regdatos["$apellido"] 
+$regdatos["$nombre_solo"] 
+$regdatos["$Area_Desempenio"] 
+$regdatos["$Id_Producto"]
+$regdatos["$Id_Trans"]

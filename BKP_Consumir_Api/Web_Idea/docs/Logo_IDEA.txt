@@ -1,0 +1,5 @@
+'<tr><td><br></td></tr>' + CHAR(13) + CHAR(10) +								
+								'<tr><td><img src="https://www.idea.org.ar/wp-content/uploads/2021/04/LogoOK.png" width="71" height="26"></td></tr>' + CHAR(13) + CHAR(10) +
+								--'<tr><td><br></td></tr>' + CHAR(13) + CHAR(10) +
+								'<tr><td><a href="https://www.idea.org.ar/">www.idea.org.ar</a></td></tr>' + CHAR(13) + CHAR(10) +
+								'<tr><td><br></td></tr>' + CHAR(13) + CHAR(10) +

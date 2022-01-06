@@ -1,0 +1,6 @@
+Ejecutar la consola de Ruby
+Ejecutar el comando para compilar de sccs a ccs:
+sass variables.scss:variables.css
+
+Ejecutar el comando para que Sass compile automático cuando modificao el archivo .scss:
+sass --watch variables.scss:variables.css
